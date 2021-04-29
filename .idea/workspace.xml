@@ -2,32 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="529dcd10-0063-4a07-b496-68f59c97ff46" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/img/arrow-top.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/cart.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/empty-cart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/grey-arrow-left.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/pizza-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/plus.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/trash.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/fonts/ProximaNova-Black.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/fonts/ProximaNova-Black.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/fonts/ProximaNova-Black.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/fonts/ProximaNova-Bold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/fonts/ProximaNova-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/fonts/ProximaNova-Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/fonts/ProximaNova-Extrabld.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/fonts/ProximaNova-Extrabld.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/fonts/ProximaNova-Extrabld.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/fonts/ProximaNova-Regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/fonts/ProximaNova-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/fonts/ProximaNova-Regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/fonts/ProximaNova-Semibold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/fonts/ProximaNova-Semibold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/fonts/ProximaNova-Semibold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Button.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Header.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/categories.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +31,7 @@
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/img" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -59,6 +40,7 @@
       <recent name="C:\simple__project_1\simple__project_1\src\scss" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\simple__project_1\simple__project_1\src\Components" />
       <recent name="C:\simple__project_1\simple__project_1\src" />
     </key>
   </component>
@@ -70,7 +52,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1619603608893</updated>
-      <workItem from="1619603611110" duration="3380000" />
+      <workItem from="1619603611110" duration="8745000" />
+      <workItem from="1619646463756" duration="3695000" />
+      <workItem from="1619688448096" duration="1545000" />
     </task>
     <servers />
   </component>
@@ -87,5 +71,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
