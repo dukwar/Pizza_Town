@@ -3,7 +3,7 @@ import classNames from "classnames";
 import PropTypes from "prop-types";
 
 
-function Button({className, onCLick, outline, children}) {
+function Button({className, onClick, outline, children}) {
 
     const classes = classNames(
         'button',
@@ -14,7 +14,7 @@ function Button({className, onCLick, outline, children}) {
 
     return (
 
-        <button onClick={onCLick}  className={classes}>
+        <button onClick={onClick} className={classes}>
             {children}
         </button>
     )

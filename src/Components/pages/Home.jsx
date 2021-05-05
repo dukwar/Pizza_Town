@@ -3,6 +3,7 @@ import {Categories, SortNav, PizzaBlock, PizzaLoadingBlock} from "../index";
 import {useDispatch, useSelector} from "react-redux";
 import {setCategory, setSortBy} from "../../Redux/actions/filters";
 import {fetchPizzas} from "../../Redux/actions/pizzas";
+import {addPizzaToCart} from "../../Redux/actions/cart";
 
 
 const categoryNames = [
@@ -19,6 +20,7 @@ const sortItems = [
     {name: 'алфавит', type: 'name',  order: 'asc'}
 
 ]
+
 
 
 
@@ -42,6 +44,8 @@ function Home() {
         }
     })
 
+    const cartItems = useSelector(({cart}) => cart.items)
+
 
 
     useEffect(() => {
@@ -59,6 +63,11 @@ function Home() {
         dispatch(setSortBy(sortBy))
     }, [dispatch])
 
+
+    const handleAddPizzaToCart = (obj) => {
+
+        dispatch(addPizzaToCart(obj))
+    }
 
     return (
         <div className="container">
@@ -81,16 +90,21 @@ function Home() {
             <h2 className="content__title">Все пиццы</h2>
             <div className="content__items">
 
-                {isFetching && items ? items.map((item, index) => <PizzaBlock
-                    key={item.id}
-                    name={item.name}
-                    img={item.imageUrl}
-                    types={item.types}
-                    sizes={item.sizes}
-                    price={item.price}
-                    category={item.category}
-                    rating={item.rating}
-                    isFetching={true}
+                {isFetching && items ? items.map((item, index) =>
+                    <PizzaBlock
+                        onClickAddPizza={(obj) => handleAddPizzaToCart(obj)}
+
+                        addedCartCount={cartItems[item.id] && cartItems[item.id].items.length}
+                        id={item.id}
+                        key={item.id}
+                        name={item.name}
+                        img={item.imageUrl}
+                        types={item.types}
+                        sizes={item.sizes}
+                        price={item.price}
+                        category={item.category}
+                        rating={item.rating}
+                        isFetching={true}
                 />) : Array(10)
                     .fill(0)
                     .map((_, index) =>
