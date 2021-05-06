@@ -1,1 +1,1 @@
-web: react-scripts server.js
+web: server.js
