@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^12.1.10",
     "axios": "^0.21.1",
     "classnames": "^2.3.1",
+    "heroku": "^7.53.0",
     "json-server": "^0.16.3",
     "node-sass": "^5.0.0",
     "prop-types": "^15.7.2",
