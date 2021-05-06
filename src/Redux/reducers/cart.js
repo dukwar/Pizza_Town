@@ -98,43 +98,74 @@ const cart = (state = initialState, action) => {
 
         case REMOVE_LOCAL_ITEM:
 
+            const arr = state.items[action.id].items.length !== 1
+                ? [...state.items[action.id].items.slice(1)]
+                : [...state.items[action.id].items]
+
             const newItems2 = {
-                ...state.items
+                ...state.items,
+                [action.id]: {
+                    items:  arr,
+                    totalPrice: getPrice(arr),
+                    totalCount: arr.length
+                }
             }
 
-            const currentPrice =  newItems2[action.id].items[0].price
-            newItems2[action.id].items.pop()
-            --newItems2[action.id].totalCount
-            newItems2.[action.id].totalPrice = newItems2.[action.id].totalPrice - currentPrice
+            // second realization
+
+            // const currentPrice =  newItems2[action.id].items[0].price
+            // const includesIn = newItems2[action.id].items.length > 1
+            //
+            // debugger
+            // if (includesIn) {
+            //     newItems2[action.id].items.pop()
+            //     --newItems2[action.id].totalCount
+            //     newItems2.[action.id].totalPrice = newItems2.[action.id].totalPrice - currentPrice
+            // }
+
+            const totalCountRemove = totalSum(newItems2, 'items.length')
+            const totalPriceRemove = totalSum(newItems2, 'totalPrice')
 
 
             return {
                 ...state,
                 items: newItems2,
-                totalCount: state.totalCount - 1,
-                totalPrice: state.totalPrice - currentPrice
-
+                totalCount: totalCountRemove,
+                totalPrice: totalPriceRemove
             }
+
 
         case ADD_LOCAL_ITEM:
 
+            const obj =  state.items[action.id].items[0]
+            const arr2 = [...state.items[action.id].items, obj]
+
             const newItems3 = {
-                ...state.items
+                ...state.items,
+                [action.id]: {
+                    items: arr2,
+                    totalPrice: getPrice(arr2),
+                    totalCount: arr2.length
+                }
             }
 
-            const currentPriceAdd =  newItems3[action.id].items[0].price
-            const obj = newItems3[action.id].items[0]
-            newItems3[action.id].items.push(obj)
-            ++newItems3[action.id].totalCount
-            newItems3[action.id].totalPrice = newItems3[action.id].totalPrice + currentPriceAdd
+            // second realization
 
+            // const currentPriceAdd =  newItems3[action.id].items[0].price
+            // const obj = newItems3[action.id].items[0]
+            // newItems3[action.id].items.push(obj)
+            // ++newItems3[action.id].totalCount
+            // newItems3[action.id].totalPrice = newItems3[action.id].totalPrice + currentPriceAdd
+
+            const totalCountAdd = totalSum(newItems3, 'items.length')
+            const totalPriceAdd = totalSum(newItems3, 'totalPrice')
 
 
             return {
                 ...state,
                 items: newItems3,
-                totalCount: state.totalCount + 1,
-                totalPrice: state.totalPrice + currentPriceAdd
+                totalCount: totalCountAdd,
+                totalPrice: totalPriceAdd,
 
             }
 
