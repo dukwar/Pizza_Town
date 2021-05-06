@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^12.1.10",
     "axios": "^0.21.1",
     "classnames": "^2.3.1",
+    "json-server": "^0.16.3",
     "node-sass": "^5.0.0",
     "prop-types": "^15.7.2",
     "react": "^17.0.2",
@@ -26,11 +27,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "server": "node server.js",
-    "json-server": "npx json-server --watch public/db.json --port=3001"
+    "json-server": "json-server --watch public/db.json --port=3001"
   },
-
   "proxy": "http://localhost:3001/",
-
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -48,8 +47,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "json-server": "^0.16.3"
   }
 }
