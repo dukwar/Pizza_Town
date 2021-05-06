@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="529dcd10-0063-4a07-b496-68f59c97ff46" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/actions/pizzas.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/actions/pizzas.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/reducers/cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/reducers/cart.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +53,7 @@
       <workItem from="1619688448096" duration="4908000" />
       <workItem from="1619713846539" duration="12638000" />
       <workItem from="1619794445327" duration="57936000" />
-      <workItem from="1620059311388" duration="58209000" />
+      <workItem from="1620059311388" duration="58521000" />
     </task>
     <servers />
   </component>
