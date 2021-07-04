@@ -1,0 +1,63 @@
+@import '../variables';
+.navbar {
+  width: 100%;
+  z-index: 1000;
+
+
+  &.fixed {
+    width: 100%;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+  }
+
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+
+    ul {
+      display: flex;
+      align-items: center;
+      transform: translateX(-52px);
+      transition: transform .2s ease;
+
+      &.fixed {
+        transform: translateX(0);
+      }
+
+
+      .logo__left {
+        width: 36px;
+        height: 36px;
+        margin-right: 20px;
+
+      }
+
+      li {
+        display: flex;
+        align-items: flex-start;
+        font-weight: 600;
+        padding: 22px 0;
+        color: $black;
+        font-size: .9rem;
+        line-height: 1;
+        transition: color 0.25s ease 0s, padding 0.25s ease 0s;
+        margin-right: 1rem;
+        white-space: nowrap;
+        cursor: pointer;
+
+
+        &.activeLi {
+          color: #ff6f0b!important;
+        }
+      }
+    }
+  }
+
+  &__cart {
+    display: flex;
+    align-items: center;
+  }
+}

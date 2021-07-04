@@ -1,104 +1,280 @@
 {
-  "pizzas": [
-    {
-      "id": 0,
-      "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/f035c7f46c0844069722f2bb3ee9f113_584x584.jpeg",
-      "name": "Пепперони Фреш с перцем",
-      "types": [0, 1],
-      "sizes": [26, 30, 40],
-      "price": 803,
-      "category": 0,
-      "rating": 4
-    },
+
+  "positions": [
     {
       "id": 1,
-      "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/2ffc31bb-132c-4c99-b894-53f7107a1441.jpg",
-      "name": "Сырная",
-      "types": [0],
-      "sizes": [26, 40],
-      "price": 245,
-      "category": 1,
-      "rating": 6
+      "name": "Комбо",
+      "category": "combo"
     },
+
     {
       "id": 2,
-      "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/6652fec1-04df-49d8-8744-232f1032c44b.jpg",
-      "name": "Цыпленок барбекю",
-      "types": [0],
-      "sizes": [26, 40],
-      "price": 295,
-      "category": 1,
-      "rating": 4
-    },
+      "name": "Закуски",
+      "category": "snacks"
+    }
+  ],
+
+    "pizzas": [
+      {
+        "id": 0,
+        "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/f035c7f46c0844069722f2bb3ee9f113_584x584.jpeg",
+        "name": "Пепперони Фреш с перцем",
+        "types": [0, 1],
+        "sizes": [26, 30, 40],
+        "price": 803,
+        "category": 0,
+        "rating": 4
+      },
+      {
+        "id": 1,
+        "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/2ffc31bb-132c-4c99-b894-53f7107a1441.jpg",
+        "name": "Сырная",
+        "types": [0],
+        "sizes": [26, 40],
+        "price": 245,
+        "category": 1,
+        "rating": 6
+      },
+      {
+        "id": 2,
+        "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/6652fec1-04df-49d8-8744-232f1032c44b.jpg",
+        "name": "Цыпленок барбекю",
+        "types": [0],
+        "sizes": [26, 40],
+        "price": 295,
+        "category": 1,
+        "rating": 4
+      },
+      {
+        "id": 3,
+        "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/af553bf5-3887-4501-b88e-8f0f55229429.jpg",
+        "name": "Кисло-сладкий цыпленок",
+        "types": [1],
+        "sizes": [26, 30, 40],
+        "price": 275,
+        "category": 2,
+        "rating": 2
+      },
+      {
+        "id": 4,
+        "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/b750f576-4a83-48e6-a283-5a8efb68c35d.jpg",
+        "name": "Чизбургер-пицца",
+        "types": [0, 1],
+        "sizes": [26, 30, 40],
+        "price": 415,
+        "category": 3,
+        "rating": 8
+      },
+      {
+        "id": 5,
+        "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/1e1a6e80-b3ba-4a44-b6b9-beae5b1fbf27.jpg",
+        "name": "Крэйзи пепперони",
+        "types": [0],
+        "sizes": [30, 40],
+        "price": 580,
+        "category": 2,
+        "rating": 2
+      },
+      {
+        "id": 6,
+        "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/d2e337e9-e07a-4199-9cc1-501cc44cb8f8.jpg",
+        "name": "Пепперони",
+        "types": [0, 1],
+        "sizes": [26, 30, 40],
+        "price": 675,
+        "category": 1,
+        "rating": 9
+      },
+      {
+        "id": 7,
+        "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/d48003cd-902c-420d-9f28-92d9dc5f73b4.jpg",
+        "name": "Маргарита",
+        "types": [0, 1],
+        "sizes": [26, 30, 40],
+        "price": 450,
+        "category": 4,
+        "rating": 10
+      },
+      {
+        "id": 8,
+        "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/ec29465e-606b-4a04-a03e-da3940d37e0e.jpg",
+        "name": "Четыре сезона",
+        "types": [0, 1],
+        "sizes": [26, 30, 40],
+        "price": 395,
+        "category": 5,
+        "rating": 10
+      },
+      {
+        "id": 9,
+        "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/30367198-f3bd-44ed-9314-6f717960da07.jpg",
+        "name": "Овощи и грибы 🌱",
+        "types": [0, 1],
+        "sizes": [26, 30, 40],
+        "price": 285,
+        "category": 5,
+        "rating": 7
+      }
+    ],
+
+    "snacks": [
+      {
+        "id": 10,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/44fa9ef30b664565bd1fc05af780905b_292x292.jpeg",
+        "name": "Додстер",
+        "description": "Легендарная горячая закуска с цыпленком, томатами, моцареллой, соусом ранч в тонкой пшеничной лепешке",
+        "price": 159,
+        "category": "snacks"
+
+      },
+
+      {
+        "id": 11,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/2ec8a54a9a7d44a68b3f97e4b37ed426_292x292.jpeg",
+        "name": "Острый Додстер ",
+        "description": "Горячая закуска с острым цыпленком, перцем халапеньо, солеными огурчиками, томатами, моцареллой и соусом барбекю в тонкой пшеничной лепешке",
+        "price": 159,
+        "category": "snacks"
+
+      },
+
+      {
+        "id": 12,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/38fcdc71fc4c4303a0a929cd2c635b9d_292x292.jpeg",
+        "name": "Грибной Стартер",
+        "description": "Горячая закуска с шампиньонами, моцареллой и соусом ранч в тонкой пшеничной лепешке",
+        "price": 159,
+        "category": "snacks"
+
+      },
+
+      {
+        "id": 13,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/b51d76666eb842d1a3c7c4879c4e3b0e_292x292.jpeg",
+        "name": "Острый Стартер",
+        "description": "Горячая закуска с острыми колбасками чоризо, острым цыпленком, перцем халапеньо, моцареллой и соусом сальса в тонкой пшеничной лепешке",
+        "price": 159,
+        "category": "snacks"
+
+      },
+
+      {
+        "id": 14,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/a846802a549043e9905744c9c85af53e_292x292.jpeg",
+        "name": "Мясной Стартер",
+        "description": "Горячая закуска с митболами из говядины, томатами, моцареллой и пикантным соусом бургер в тонкой пшеничной лепешке",
+        "price": 159,
+        "category": "snacks"
+
+      },
+
+      {
+        "id": 15,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/a8a6ba3d4be64846a2ca26e49de3abde_292x292.jpeg",
+        "name": "Блинчики с ветчиной и сыром, 2 шт",
+        "description": "Воздушные блинчики с сыром и ветчиной из свинины, приготовленные в печи",
+        "price": 159,
+        "category": "snacks"
+
+      },
+
+      {
+        "id": 16,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/b583f7299d8c4e4fa313f65ef72e7449_292x292.jpeg",
+        "name": "Ланчбокс с крыльями барбекю",
+        "description": "Горячий сытный обед из куриных крыльев со специями и ароматом копчения, картофеля из печи с итальянскими травами и соуса барбекю",
+        "price": 299,
+        "category": "snacks"
+
+      },
+
+      {
+        "id": 17,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/c9aaaf78cb11475e86014fd52609f09a_292x292.jpeg",
+        "name": "Ланчбокс с куриными кусочками",
+        "description": "Горячий сытный обед из нежных куриных кусочков, картофеля из печи с итальянскими травами и сырного соуса",
+        "price": 299,
+        "category": "snacks"
+
+      },
+
+      {
+        "id": 18,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/e3eeee00e41c4b2cb4f3f5f2fc0f504e_292x292.jpeg",
+        "name": "Картофель из печи",
+        "description": "Ароматный запеченный картофель с итальянскими травами. Большая порция",
+        "price": 179,
+        "category": "snacks"
+
+      },
+
+      {
+        "id": 19,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/80a7715ede17489db4010ce3c5741efa_292x292.jpeg",
+        "name": "Куриные крылья",
+        "description": "Куриные крылья со специями и ароматом копчения, большая порция",
+        "price": 349,
+        "category": "snacks"
+
+      },
+
+      {
+        "id": 20,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/1c9bd2c1c77d4da28bdc35ad5fc1f5d6_292x292.jpeg",
+        "name": "Куриные кусочки",
+        "description": "Сочное куриное филе в панировке, большая порция",
+        "price": 349,
+        "category": "snacks"
+
+      },
+
+      {
+        "id": 21,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/289ceaa7249640b0b5a109b908b07cd6_292x292.jpeg",
+        "name": "Паста Карбонара",
+        "description": "Паста, бекон, сыры чеддер, пармезан и моцарелла, томаты, соус альфредо, итальянские травы, чеснок",
+        "price": 269,
+        "category": "snacks"
+
+      }
+    ],
+
+  "combo": [
     {
-      "id": 3,
-      "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/af553bf5-3887-4501-b88e-8f0f55229429.jpg",
-      "name": "Кисло-сладкий цыпленок",
-      "types": [1],
-      "sizes": [26, 30, 40],
-      "price": 275,
-      "category": 2,
-      "rating": 2
+      "id": 22,
+      "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/ComboTemplates/6dca194599cd40cba642bef6bef34d4e_138x138.jpeg",
+      "name": "Комбо за 599 ₽",
+      "description": "Наш хит «Аррива!» или другая пицца 25 см, Додстер, напиток и соус. Выбор пицц ограничен.",
+      "price": 599,
+      "category": "combo"
     },
+
     {
-      "id": 4,
-      "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/b750f576-4a83-48e6-a283-5a8efb68c35d.jpg",
-      "name": "Чизбургер-пицца",
-      "types": [0, 1],
-      "sizes": [26, 30, 40],
-      "price": 415,
-      "category": 3,
-      "rating": 8
+      "id": 23,
+      "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/ComboTemplates/f55b3c83e94b4c4d99b44f3e2e856af1_138x138.jpeg",
+      "name": "2 пиццы",
+      "description": "Самое популярное комбо из 2 пицц 30 см. Выбор пицц ограничен.",
+      "price": 899,
+      "category": "combo"
     },
+
     {
-      "id": 5,
-      "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/1e1a6e80-b3ba-4a44-b6b9-beae5b1fbf27.jpg",
-      "name": "Крэйзи пепперони",
-      "types": [0],
-      "sizes": [30, 40],
-      "price": 580,
-      "category": 2,
-      "rating": 2
+      "id": 24,
+      "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/ComboTemplates/3ccc2085e30f4a3e8b1d7f550228be46_138x138.jpeg",
+      "name": "2 пиццы и напиток",
+      "description": "2 пиццы 25 см и напиток на выбор. Для компании из 2–4 человек. Выбор пицц ограничен.",
+      "price": 749,
+      "category": "combo"
     },
+
     {
-      "id": 6,
-      "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/d2e337e9-e07a-4199-9cc1-501cc44cb8f8.jpg",
-      "name": "Пепперони",
-      "types": [0, 1],
-      "sizes": [26, 30, 40],
-      "price": 675,
-      "category": 1,
-      "rating": 9
-    },
-    {
-      "id": 7,
-      "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/d48003cd-902c-420d-9f28-92d9dc5f73b4.jpg",
-      "name": "Маргарита",
-      "types": [0, 1],
-      "sizes": [26, 30, 40],
-      "price": 450,
-      "category": 4,
-      "rating": 10
-    },
-    {
-      "id": 8,
-      "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/ec29465e-606b-4a04-a03e-da3940d37e0e.jpg",
-      "name": "Четыре сезона",
-      "types": [0, 1],
-      "sizes": [26, 30, 40],
-      "price": 395,
-      "category": 5,
-      "rating": 10
-    },
-    {
-      "id": 9,
-      "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/30367198-f3bd-44ed-9314-6f717960da07.jpg",
-      "name": "Овощи и грибы 🌱",
-      "types": [0, 1],
-      "sizes": [26, 30, 40],
-      "price": 285,
-      "category": 5,
-      "rating": 7
+      "id": 25,
+      "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/ComboTemplates/32544ea9acac4d509924a25a37bc985f_138x138.jpeg",
+      "name": "2 пиццы и закуска",
+      "description": "2 пиццы 25 см и напиток на выбор. Для компании из 2–4 человек. Выбор пицц ограничен.",
+      "price": 799,
+      "category": "combo"
     }
   ]
+
 }

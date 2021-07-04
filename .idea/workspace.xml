@@ -1,14 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="529dcd10-0063-4a07-b496-68f59c97ff46" name="Default Changelist" comment="" />
+    <list default="true" id="529dcd10-0063-4a07-b496-68f59c97ff46" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Components/ComponentsHelpers/Sprites.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Header/Header.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Header/Navbar.dt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Header/Navbar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/PositionItem.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Positions.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/SnackBlock/SnackBlock.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/SwiperCategories/SwiperCategories.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/SwiperMain/SwiperMain.dt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/SwiperMain/SwiperMain.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/SwiperSub/SwiperSub.dt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/SwiperSub/SwiperSub.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Redux/actions/positions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Redux/actions/snacks.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Redux/reducers/allItems.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Redux/reducers/positions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/scrollMenu.hook.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/useFixed.hook.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/components/_navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/components/_swiper-categories.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/components/_swipermain.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/components/_swipersub.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/fonts/Dodo Rounded Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/fonts/Dodo Rounded Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/fonts/Dodo Rounded Bold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/fonts/Dodo Rounded.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/fonts/Dodo Rounded.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/fonts/Dodo Rounded.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/db.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Header.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/PizzaBlock/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/PizzaBlock/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/pages/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/pages/Home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Redux/actions/pizzas.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/actions/pizzas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Redux/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/constants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Redux/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Redux/reducers/cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/reducers/cart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Redux/reducers/filters.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/reducers/filters.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Redux/reducers/pizzas.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/reducers/pizzas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/_fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_fonts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_all.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_all.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_button.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_categories.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_categories.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_pizza-block.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_pizza-block.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_sort.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_sort.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/libs/_normalize.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/libs/_normalize.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/Components/CartItem.jsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Components/Button.jsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/yarn.lock" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/App.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Components/sortNav.jsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/index.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/scss/components/_categories.scss" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Components/pages/index.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/App.test.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Components/pages/Cart.jsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/public/db.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Components/PizzaBlock/index.jsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Redux/actions/cart.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Redux/actions/filters.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Redux/reducers/cart.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Redux/reducers/filters.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Redux/reducers/pizzas.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/server.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Components/pages/Home.jsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/scss/_variables.scss" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Components/index.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Components/categories.jsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/scss/_fonts.scss" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/package.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/scss/components/_button.scss" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Redux/actions/pizzas.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/scss/app.scss" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1rnEltPvY3tKP55NeFTA5cCqSer" />
   <component name="ProjectViewState">
@@ -20,7 +119,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Redux/reducers" />
+    <property name="last_opened_file_path" value="$USER_HOME$/nodeLesson" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -32,10 +132,11 @@
       <recent name="C:\simple__project_1\simple__project_1\src\scss" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\simple__project_1\simple__project_1\src\scss\fonts" />
+      <recent name="C:\simple__project_1\simple__project_1\src\Components\Header" />
       <recent name="C:\simple__project_1\simple__project_1\src\Components\PizzaBlock" />
       <recent name="C:\simple__project_1\simple__project_1\src\Redux\actions" />
       <recent name="C:\simple__project_1\simple__project_1\src\Components" />
-      <recent name="C:\simple__project_1\simple__project_1\src" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -51,7 +152,26 @@
       <workItem from="1619688448096" duration="4908000" />
       <workItem from="1619713846539" duration="12638000" />
       <workItem from="1619794445327" duration="57936000" />
-      <workItem from="1620059311388" duration="73139000" />
+      <workItem from="1620059311388" duration="77467000" />
+      <workItem from="1620404671426" duration="5305000" />
+      <workItem from="1620670423512" duration="2351000" />
+      <workItem from="1621513245471" duration="1045000" />
+      <workItem from="1621771392106" duration="9284000" />
+      <workItem from="1622203606976" duration="2709000" />
+      <workItem from="1622402024613" duration="578000" />
+      <workItem from="1622407790273" duration="3933000" />
+      <workItem from="1622829493434" duration="2950000" />
+      <workItem from="1623678013091" duration="1777000" />
+      <workItem from="1623961660033" duration="1110000" />
+      <workItem from="1624044334455" duration="2420000" />
+      <workItem from="1624122755798" duration="1989000" />
+      <workItem from="1624303862415" duration="580000" />
+      <workItem from="1624618400684" duration="571000" />
+      <workItem from="1624642277860" duration="163000" />
+      <workItem from="1624804017792" duration="2257000" />
+      <workItem from="1624821781064" duration="22677000" />
+      <workItem from="1625059968984" duration="38759000" />
+      <workItem from="1625226675585" duration="51850000" />
     </task>
     <servers />
   </component>

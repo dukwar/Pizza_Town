@@ -41,3 +41,21 @@
   font-weight: 800;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'Dodo';
+  src: url('./fonts/Dodo Rounded.woff2') format('woff2'),
+  url('./fonts/Dodo Rounded.woff') format('woff'),
+  url('./fonts/Dodo Rounded.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Dodo Bold';
+  src: url('./fonts/Dodo Rounded Bold.woff2') format('woff2'),
+  url('./fonts/Dodo Rounded Bold.woff') format('woff'),
+  url('./fonts/Dodo Rounded Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}

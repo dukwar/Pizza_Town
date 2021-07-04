@@ -5,12 +5,26 @@
   background-color: $orange;
   border-radius: 30px;
   padding: 10px 20px;
-  min-width: 100px;
+  min-width: 30px;
   text-align: center;
   cursor: pointer;
   transition: background-color $duration ease-in-out, border-color $duration ease-in-out;
   border: 1px solid transparent;
   @include noselect();
+
+
+  &--profile {
+    max-width: 100px;
+    margin: 0px 0px 8px 8px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 100px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    background-color: rgb(243, 243, 247);
+    color: rgb(92, 99, 112)!important;
+}
 
   &,
   span {
@@ -133,7 +147,8 @@
     display: flex;
     align-items: center;
     line-height: 23px;
-    padding: 12px 25px;
+    padding: 6px 20px;
+    white-space: nowrap;
 
     svg {
       margin-right: 8px;

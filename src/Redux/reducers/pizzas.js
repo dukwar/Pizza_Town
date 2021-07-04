@@ -2,7 +2,7 @@ import {SET_LOADED, SETPIZZAS} from "../constants";
 
 
 const initialState = {
-    items: [],
+    pizzas: [],
     isFetching: false
 }
 
@@ -14,7 +14,7 @@ const pizzas = (state = initialState, action) => {
         case SETPIZZAS:
             return {
                 ...state,
-                items: action.items,
+                pizzas: action.items,
                 isFetching: true
             }
 

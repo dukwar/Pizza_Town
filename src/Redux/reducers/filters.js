@@ -2,7 +2,7 @@ import {SET_CATEGORY, SET_SORT_BY} from "../constants";
 
 
 const initialState = {
-    sortBy:{
+    sortBy: {
         type: 'popular',
         order: 'desc'
     },

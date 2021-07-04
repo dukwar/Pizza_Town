@@ -4,6 +4,9 @@ import {Header} from "./Components";
 import Home from "./Components/pages/Home";
 import {Route} from "react-router-dom"
 import Cart from "./Components/pages/Cart";
+import Navbar from "./Components/Header/Navbar";
+import SwiperMain from "./Components/SwiperMain/SwiperMain";
+import SwiperSub from "./Components/SwiperSub/SwiperSub";
 
 
 
@@ -15,7 +18,10 @@ function App() {
 
   return (
       <div className="wrapper">
-        <Header />
+          <Header />
+          <Navbar />
+          <SwiperMain />
+          <SwiperSub />
         <div className="content">
             <Route exact path="/" component={Home} />
             <Route exact path="/cart" component={Cart} />
