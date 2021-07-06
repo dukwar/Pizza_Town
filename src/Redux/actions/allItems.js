@@ -10,7 +10,7 @@ export const setAllItems = (items) => {
 
 export const fetchItems = (category) => async (dispatch) => {
 
-    const data = await axios.get(`http://localhost:3001/${category}`)
+    const data = await axios.get(`/${category}`)
     dispatch(setAllItems(data.data))
 
 }

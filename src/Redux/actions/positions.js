@@ -11,7 +11,7 @@ export const setPositions = (positions) => {
 
 export const fetchPositions = () => (dispatch) => {
 
-    axios.get(`http://localhost:3001/positions`)
+    axios.get(`/positions`)
         .then(data => dispatch(setPositions(data.data)))
 
 }
