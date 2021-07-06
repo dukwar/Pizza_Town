@@ -7,16 +7,6 @@ const middlewares = jsonServer.defaults({
 
 const PORT = process.env.PORT || 3001
 
-// server.get('/pizzas', (req, res) => {
-//     const db = require('./public/db.json')
-//     res.json(db.positions.pizzas)
-// })
-
-// server.get('/snacks', (req, res) => {
-//     const db = require('./public/db.json')
-//     res.json(db.positions.snacks)
-// })
-
 server.use(middlewares)
 server.use(router)
 

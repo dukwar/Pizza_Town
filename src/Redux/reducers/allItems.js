@@ -16,9 +16,6 @@ const allItems = (state = initialState, action) => {
             const newItems = !action.items[0] ? {...state.items}
                 : {...state.items, [action.items[0].category]: action.items}
 
-
-
-
             return {
                 ...state,
                 items: newItems,

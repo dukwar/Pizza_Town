@@ -2,29 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="529dcd10-0063-4a07-b496-68f59c97ff46" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/ComponentsHelpers/ScrollToTop.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/db.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/ComponentsHelpers/Sprites.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ComponentsHelpers/Sprites.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Header/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/Navbar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Positions.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Positions.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/SwiperCategories/SwiperCategories.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/SwiperCategories/SwiperCategories.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/SwiperMain/SwiperMain.dt.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/SwiperMain/SwiperMain.dt.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/pages/Cart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/pages/Cart.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/pages/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/pages/Home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/actions/pizzas.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/actions/pizzas.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/actions/snacks.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/actions/allItems.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/reducers/cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/reducers/cart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/reducers/pizzas.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/reducers/pizzas.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hooks/scrollMenu.hook.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/scrollMenu.hook.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_button.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_navbar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_pizza-block.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_pizza-block.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Redux/reducers/allItems.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/reducers/allItems.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +120,7 @@
       <workItem from="1624804017792" duration="2257000" />
       <workItem from="1624821781064" duration="22677000" />
       <workItem from="1625059968984" duration="38759000" />
-      <workItem from="1625226675585" duration="93861000" />
+      <workItem from="1625226675585" duration="94737000" />
     </task>
     <servers />
   </component>
