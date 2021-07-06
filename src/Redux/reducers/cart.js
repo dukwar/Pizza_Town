@@ -9,23 +9,15 @@ const initialState = {
 
 const getPrice = arr => arr.reduce((acc, next) => acc + next.price, 0)
 
-const _get = (obj, path) => {
-    const [firstKey, ...keys] = path.split('.')
+const getTotalPrice = (obj) => Object.keys(obj).reduce((acc, curr) => {
+    const totalPrice = 'totalPrice'
+    return acc += obj[curr][totalPrice]
+}, 0)
 
-    return keys.reduce((val, key) => {
-        return val[key]
-    }, obj[firstKey])
-}
-
-const totalSum = (obj, path) => {
-
-    return Object.values(obj).reduce((acc, obj) => {
-
-        const value = _get(obj, path)
-        return acc + value
-    }, 0)
-
-}
+const getTotalCount = (obj) => Object.keys(obj).reduce((acc, curr) => {
+    const totalCount= 'totalCount'
+    return acc += obj[curr][totalCount]
+}, 0)
 
 
 
@@ -55,8 +47,8 @@ const cart = (state = initialState, action) => {
             }
 
 
-            const totalCount = totalSum(newItems, 'items.length')
-            const totalPrice = totalSum(newItems, 'totalPrice')
+            const totalCount = getTotalCount(newItems)
+            const totalPrice = getTotalPrice(newItems)
 
 
             return {
@@ -110,20 +102,9 @@ const cart = (state = initialState, action) => {
                 }
             }
 
-            // second realization
 
-            // const currentPrice =  newItems2[action.id].items[0].price
-            // const includesIn = newItems2[action.id].items.length > 1
-            //
-            // debugger
-            // if (includesIn) {
-            //     newItems2[action.id].items.pop()
-            //     --newItems2[action.id].totalCount
-            //     newItems2.[action.id].totalPrice = newItems2.[action.id].totalPrice - currentPrice
-            // }
-
-            const totalCountRemove = totalSum(newItems2, 'items.length')
-            const totalPriceRemove = totalSum(newItems2, 'totalPrice')
+            const totalCountRemove = getTotalCount(newItems2)
+            const totalPriceRemove = getTotalPrice(newItems2)
 
 
             return {
@@ -148,16 +129,8 @@ const cart = (state = initialState, action) => {
                 }
             }
 
-            // second realization
-
-            // const currentPriceAdd =  newItems3[action.id].items[0].price
-            // const obj = newItems3[action.id].items[0]
-            // newItems3[action.id].items.push(obj)
-            // ++newItems3[action.id].totalCount
-            // newItems3[action.id].totalPrice = newItems3[action.id].totalPrice + currentPriceAdd
-
-            const totalCountAdd = totalSum(newItems3, 'items.length')
-            const totalPriceAdd = totalSum(newItems3, 'totalPrice')
+            const totalCountAdd = getTotalCount(newItems3)
+            const totalPriceAdd = getTotalPrice(newItems3)
 
 
             return {

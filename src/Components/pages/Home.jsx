@@ -33,6 +33,7 @@ function Home() {
     const positions = useSelector(({positions}) => positions.positions)
     const cartItems = useSelector(({cart}) => cart.items)
 
+    console.log(isFetching)
 
     const {category, sortBy} = useSelector(({filters}) => {
         return {

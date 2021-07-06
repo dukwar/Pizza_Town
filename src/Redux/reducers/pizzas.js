@@ -15,7 +15,6 @@ const pizzas = (state = initialState, action) => {
             return {
                 ...state,
                 pizzas: action.items,
-                isFetching: true
             }
 
         case SET_LOADED:

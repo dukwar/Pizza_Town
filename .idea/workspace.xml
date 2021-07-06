@@ -2,60 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="529dcd10-0063-4a07-b496-68f59c97ff46" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/ComponentsHelpers/Sprites.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Header/Header.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Header/Navbar.dt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Header/Navbar.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/PositionItem.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Positions.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/SnackBlock/SnackBlock.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/SwiperCategories/SwiperCategories.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/SwiperMain/SwiperMain.dt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/SwiperMain/SwiperMain.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/SwiperSub/SwiperSub.dt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/SwiperSub/SwiperSub.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Redux/actions/positions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Redux/actions/snacks.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Redux/reducers/allItems.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Redux/reducers/positions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks/scrollMenu.hook.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks/useFixed.hook.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/components/_navbar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/components/_swiper-categories.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/components/_swipermain.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/components/_swipersub.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/fonts/Dodo Rounded Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/fonts/Dodo Rounded Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/fonts/Dodo Rounded Bold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/fonts/Dodo Rounded.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/fonts/Dodo Rounded.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/fonts/Dodo Rounded.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/ComponentsHelpers/ScrollToTop.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/db.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Header.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/PizzaBlock/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/PizzaBlock/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/ComponentsHelpers/Sprites.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ComponentsHelpers/Sprites.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Header/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/Navbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Positions.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Positions.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/SwiperCategories/SwiperCategories.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/SwiperCategories/SwiperCategories.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/SwiperMain/SwiperMain.dt.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/SwiperMain/SwiperMain.dt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/pages/Cart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/pages/Cart.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/pages/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/pages/Home.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Redux/actions/pizzas.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/actions/pizzas.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/constants.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Redux/actions/snacks.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/actions/allItems.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Redux/reducers/cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/reducers/cart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/reducers/filters.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/reducers/filters.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Redux/reducers/pizzas.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/reducers/pizzas.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/_fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_fonts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/scrollMenu.hook.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/scrollMenu.hook.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_variables.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_all.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_all.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/components/_button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_button.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_categories.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_categories.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/components/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_navbar.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/components/_pizza-block.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_pizza-block.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_sort.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_sort.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/libs/_normalize.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/libs/_normalize.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +88,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/nodeLesson" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ReactProjectLayot3/layot__bio" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -171,7 +140,7 @@
       <workItem from="1624804017792" duration="2257000" />
       <workItem from="1624821781064" duration="22677000" />
       <workItem from="1625059968984" duration="38759000" />
-      <workItem from="1625226675585" duration="51850000" />
+      <workItem from="1625226675585" duration="93861000" />
     </task>
     <servers />
   </component>

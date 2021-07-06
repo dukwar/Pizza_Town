@@ -5,33 +5,39 @@ export const useScrollTopMenu = () => {
 
     const [activeLi, setActiveLi] = useState('')
 
-
     // check the indentation of each category
     const handleActive = useCallback(() => {
-        setTimeout(() => {
             const categoryElements = document.getElementsByClassName('content__title')
-
             const categoryItems = Object.values(categoryElements)
+            const offsetNull = categoryItems[0].getBoundingClientRect().top
+            if (offsetNull >= 100) {
+                setActiveLi('')
+            }
 
-            console.log(categoryItems)
             categoryItems.forEach(item => {
-                const offsetItem = Math.abs(item.getBoundingClientRect().top)
-                if (offsetItem <= 180) {
-                    const name = item.innerHTML
+                const offsetItem = item.getBoundingClientRect().top
+                const name = item.innerHTML
+
+                if (offsetItem <= 100) {
+                    setActiveLi('')
                     setActiveLi(name)
+                    setTimeout(() => {
+                        handleOffsetLeft()
+                    }, 2000)
+
                 }
             })
-        }, 500)
     }, [])
+
 
     // look for an element by id and scroll to it
     const handleOffset = useCallback((name) => {
         setActiveLi(name)
         const elemsOffset = document.getElementsByClassName('content__title')
         const scrollTop = document.documentElement.scrollTop
-      Object.values(elemsOffset).forEach((item) => {
+        Object.values(elemsOffset).forEach((item) => {
             if (item.innerHTML === name) {
-                const topOffsetEl = item.getBoundingClientRect().top + scrollTop
+                const topOffsetEl = item.getBoundingClientRect().top + scrollTop - 80
                 window.scrollTo({top: topOffsetEl, behavior: "smooth"})
             }
         })
@@ -39,19 +45,11 @@ export const useScrollTopMenu = () => {
     }, [])
 
     // take the active category and scroll to the desired position
-    useEffect(() => {
+    const handleOffsetLeft = useCallback(() => {
         const offsetLi = document.getElementsByClassName('activeLi')
-        if (offsetLi && offsetLi.length !== 0) {
-            const offset = offsetLi[0].offsetLeft
-            const elScroll = document.getElementById("scrollUl")
-            if (elScroll) {
-                setTimeout(() => {
-                    elScroll.scrollTo({left: offset, behavior: "smooth"})
-                }, 1000)
-            }
-        }
+        if (offsetLi[0]) offsetLi[0].scrollIntoView({inline: "start", behavior: "smooth"})
 
-    }, [activeLi])
+    }, [])
 
     useEffect(() => {
         document.addEventListener('scroll', handleActive)
@@ -61,5 +59,5 @@ export const useScrollTopMenu = () => {
         }
     }, [])
 
-    return {handleActive, handleOffset, activeLi}
+    return {handleOffset, activeLi}
 }

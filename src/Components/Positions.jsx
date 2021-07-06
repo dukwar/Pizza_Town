@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react';
 import PositionItem from "./PositionItem";
-import {fetchItems} from "../Redux/actions/snacks";
+import {fetchItems} from "../Redux/actions/allItems";
 import {useDispatch, useSelector} from "react-redux";
 import PropTypes from "prop-types";
 import PizzaBlock from "./PizzaBlock";

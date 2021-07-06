@@ -242,7 +242,7 @@
   "combo": [
     {
       "id": 22,
-      "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/ComboTemplates/6dca194599cd40cba642bef6bef34d4e_138x138.jpeg",
+      "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/ComboTemplates/6dca194599cd40cba642bef6bef34d4e_292x292.webp",
       "name": "Комбо за 599 ₽",
       "description": "Наш хит «Аррива!» или другая пицца 25 см, Додстер, напиток и соус. Выбор пицц ограничен.",
       "price": 599,
@@ -251,7 +251,7 @@
 
     {
       "id": 23,
-      "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/ComboTemplates/f55b3c83e94b4c4d99b44f3e2e856af1_138x138.jpeg",
+      "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/ComboTemplates/f55b3c83e94b4c4d99b44f3e2e856af1_292x292.webp",
       "name": "2 пиццы",
       "description": "Самое популярное комбо из 2 пицц 30 см. Выбор пицц ограничен.",
       "price": 899,
@@ -260,7 +260,7 @@
 
     {
       "id": 24,
-      "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/ComboTemplates/3ccc2085e30f4a3e8b1d7f550228be46_138x138.jpeg",
+      "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/ComboTemplates/3ccc2085e30f4a3e8b1d7f550228be46_292x292.webp",
       "name": "2 пиццы и напиток",
       "description": "2 пиццы 25 см и напиток на выбор. Для компании из 2–4 человек. Выбор пицц ограничен.",
       "price": 749,
@@ -269,7 +269,7 @@
 
     {
       "id": 25,
-      "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/ComboTemplates/32544ea9acac4d509924a25a37bc985f_138x138.jpeg",
+      "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/ComboTemplates/32544ea9acac4d509924a25a37bc985f_292x292.webp",
       "name": "2 пиццы и закуска",
       "description": "2 пиццы 25 см и напиток на выбор. Для компании из 2–4 человек. Выбор пицц ограничен.",
       "price": 799,
