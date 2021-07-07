@@ -23,7 +23,6 @@ export const useScrollTopMenu = () => {
                 if (offsetItem <= 250  || offsetChild <= 250) {
                     const name = item.innerHTML
                     setActiveLi(name)
-                    handleOffsetLeft()
                 }
             })
     }, [])
@@ -50,11 +49,11 @@ export const useScrollTopMenu = () => {
 
     }, [])
 
-    // useEffect(() => {
-    //     setTimeout(() => {
-    //         handleOffsetLeft()
-    //     }, 1000)
-    // }, [activeLi])
+    useEffect(() => {
+        setTimeout(() => {
+            handleOffsetLeft()
+        }, 3000)
+    }, [activeLi])
 
     useEffect(() => {
         document.addEventListener('scroll', handleActive)
