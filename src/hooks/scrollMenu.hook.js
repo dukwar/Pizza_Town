@@ -20,9 +20,10 @@ export const useScrollTopMenu = () => {
                 const lastChildOffset = item.nextSibling.lastChild
                 const offsetChild = Math.abs(lastChildOffset?.getBoundingClientRect().top)
 
-                if (offsetItem <= 200  || offsetChild <= 200) {
+                if (offsetItem <= 250  || offsetChild <= 250) {
                     const name = item.innerHTML
                     setActiveLi(name)
+                    handleOffsetLeft()
                 }
             })
     }, [])
@@ -49,11 +50,11 @@ export const useScrollTopMenu = () => {
 
     }, [])
 
-    useEffect(() => {
-        setTimeout(() => {
-            handleOffsetLeft()
-        }, 1000)
-    }, [activeLi])
+    // useEffect(() => {
+    //     setTimeout(() => {
+    //         handleOffsetLeft()
+    //     }, 1000)
+    // }, [activeLi])
 
     useEffect(() => {
         document.addEventListener('scroll', handleActive)
