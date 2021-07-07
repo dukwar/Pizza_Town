@@ -1,6 +1,7 @@
 import {useCallback, useEffect, useState} from "react";
 
 
+
 export const useScrollTopMenu = () => {
 
     const [activeLi, setActiveLi] = useState('')
@@ -15,16 +16,13 @@ export const useScrollTopMenu = () => {
             }
 
             categoryItems.forEach(item => {
-                const offsetItem = item.getBoundingClientRect().top
-                const name = item.innerHTML
+                const offsetItem = Math.abs(item.getBoundingClientRect().top)
+                const lastChildOffset = item.nextSibling.lastChild
+                const offsetChild = Math.abs(lastChildOffset?.getBoundingClientRect().top)
 
-                if (offsetItem <= 100) {
-                    setActiveLi('')
+                if (offsetItem <= 200  || offsetChild <= 200) {
+                    const name = item.innerHTML
                     setActiveLi(name)
-                    setTimeout(() => {
-                        handleOffsetLeft()
-                    }, 2000)
-
                 }
             })
     }, [])
@@ -50,6 +48,12 @@ export const useScrollTopMenu = () => {
         if (offsetLi[0]) offsetLi[0].scrollIntoView({inline: "start", behavior: "smooth"})
 
     }, [])
+
+    useEffect(() => {
+        setTimeout(() => {
+            handleOffsetLeft()
+        }, 1000)
+    }, [activeLi])
 
     useEffect(() => {
         document.addEventListener('scroll', handleActive)

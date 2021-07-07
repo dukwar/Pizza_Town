@@ -24,15 +24,15 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "start": "concurrently \"npm run server \" \"npm run start\" ",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "server": "node server.js",
-
+    "dev": "concurrently \"npm run server \" \"npm run start\" ",
     "json-server": "json-server --watch public/db.json --port=3001"
   },
-
+  "proxy": "http://localhost:3001",
 
   "engines": {
     "node": "15.5.1"
