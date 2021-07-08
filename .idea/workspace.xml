@@ -3,15 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="529dcd10-0063-4a07-b496-68f59c97ff46" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/SwiperCategories/SwiperCategories.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/SwiperCategories/SwiperCategories.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/SwiperSub/SwiperSub.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/SwiperSub/SwiperSub.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_navbar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_swiper-categories.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_swiper-categories.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_swipermain.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_swipermain.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_swipersub.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_swipersub.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +120,7 @@
       <workItem from="1625059968984" duration="38759000" />
       <workItem from="1625226675585" duration="105777000" />
       <workItem from="1625664009826" duration="1764000" />
-      <workItem from="1625692569202" duration="9106000" />
+      <workItem from="1625692569202" duration="10029000" />
     </task>
     <servers />
   </component>
