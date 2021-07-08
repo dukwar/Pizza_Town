@@ -40,6 +40,21 @@ function SwiperSub() {
                         spaceBetween: 30,
                     },
 
+                    520: {
+                        slidesPerView: 1.5,
+                        spaceBetween: 30,
+                    },
+
+                    425: {
+                        slidesPerView: 1.3,
+                        spaceBetween: 30,
+                    },
+
+                    320: {
+                        slidesPerView: 1.5,
+                        spaceBetween: 30,
+                    },
+
                     240: {
 
                         slidesPerView: 1,

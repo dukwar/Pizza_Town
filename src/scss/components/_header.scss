@@ -115,7 +115,7 @@
   .header {
 
     &__logo {
-      width: 110px;
+      width: 140px;
       margin-right: 5px;
 
       &--img {
@@ -126,6 +126,24 @@
   }
 
 }
+
+@media (max-width: 290px) {
+
+  .header {
+
+    &__logo {
+      width: 115px;
+      margin-right: 5px;
+
+      &--img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+
+}
+
 
 
 

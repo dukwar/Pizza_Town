@@ -41,15 +41,27 @@ const SwiperCategories = React.memo(function Categories({items, activeCategory, 
                         spaceBetween: 30,
                     },
 
-                    425: {
+                    530: {
 
-                        slidesPerView: 2.7,
+                        slidesPerView: 3.5,
+                        spaceBetween: 30,
+                    },
+
+                    440: {
+
+                        slidesPerView: 3,
+                        spaceBetween: 30,
+                    },
+
+                   359: {
+
+                        slidesPerView: 2.3,
                         spaceBetween: 30,
                     },
 
                     240: {
 
-                        slidesPerView: 2,
+                        slidesPerView: 1.8,
                         spaceBetween: 30,
                     },
                 }}

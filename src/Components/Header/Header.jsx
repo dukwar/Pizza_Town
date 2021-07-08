@@ -32,9 +32,9 @@ const Header = () => {
                     <div className="header__profile">
 
 
-                        <Button className="button--profile">
-                            Войти
-                        </Button>
+                        {/*<Button className="button--profile">*/}
+                        {/*    Войти*/}
+                        {/*</Button>*/}
                         <div className="navbar__cart">
                             <NavLink to="/cart">
                                 <Button className="button--cart">

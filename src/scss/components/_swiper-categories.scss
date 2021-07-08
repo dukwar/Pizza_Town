@@ -1,6 +1,7 @@
 @import '../variables';
 
 .swiper-categories {
+  position: relative;
   width: 100%!important;
   overflow: visible!important;
 
@@ -23,8 +24,6 @@
     display: flex;
     flex-wrap: nowrap;
     width: 100%!important;
-
-
 
     li {
       min-width: 170px;

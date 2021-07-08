@@ -3,6 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="529dcd10-0063-4a07-b496-68f59c97ff46" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/SwiperCategories/SwiperCategories.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/SwiperCategories/SwiperCategories.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/SwiperSub/SwiperSub.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/SwiperSub/SwiperSub.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_navbar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_swiper-categories.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_swiper-categories.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_swipermain.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_swipermain.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_swipersub.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_swipersub.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,33 +37,33 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/Components/CartItem.jsx" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Components/Button.jsx" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/yarn.lock" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/App.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Components/sortNav.jsx" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/index.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/scss/components/_categories.scss" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Components/pages/index.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/App.test.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Components/pages/Cart.jsx" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/public/db.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Components/PizzaBlock/index.jsx" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Redux/actions/cart.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Redux/actions/filters.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Redux/reducers/cart.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Redux/reducers/filters.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Redux/reducers/pizzas.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/server.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Components/pages/Home.jsx" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/scss/_variables.scss" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Components/index.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Components/categories.jsx" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/scss/_fonts.scss" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/package.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/scss/components/_button.scss" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Redux/actions/pizzas.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Components/pages/index.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/scss/components/_categories.scss" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Redux/reducers/filters.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Components/sortNav.jsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Components/index.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Components/PizzaBlock/index.jsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/public/db.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Redux/reducers/pizzas.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/scss/_variables.scss" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Components/CartItem.jsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Components/pages/Cart.jsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Components/categories.jsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Components/Button.jsx" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/scss/app.scss" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/scss/components/_button.scss" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Components/pages/Home.jsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/App.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/index.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Redux/reducers/cart.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Redux/actions/pizzas.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Redux/actions/filters.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Redux/actions/cart.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/App.test.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/server.js" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1rnEltPvY3tKP55NeFTA5cCqSer" />
   <component name="ProjectViewState">
@@ -118,7 +127,9 @@
       <workItem from="1624804017792" duration="2257000" />
       <workItem from="1624821781064" duration="22677000" />
       <workItem from="1625059968984" duration="38759000" />
-      <workItem from="1625226675585" duration="105438000" />
+      <workItem from="1625226675585" duration="105777000" />
+      <workItem from="1625664009826" duration="1764000" />
+      <workItem from="1625692569202" duration="9106000" />
     </task>
     <servers />
   </component>

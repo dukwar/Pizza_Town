@@ -51,14 +51,13 @@
   overflow: visible;
   display: flex;
   max-width: 100%;
-  margin-top: 10px;
   z-index: 30;
 
   &--container {
     overflow: hidden;
     max-width: 100%;
     position: relative;
-    padding: 0 calc((100% - 1300px) / 2);
+    padding: 2rem calc((100% - 1300px) / 2);
   }
 
 // custom-slide
