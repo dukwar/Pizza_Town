@@ -66,7 +66,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ReactProjectLayot3/layot__bio" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Lesson" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -120,7 +120,8 @@
       <workItem from="1625059968984" duration="38759000" />
       <workItem from="1625226675585" duration="105777000" />
       <workItem from="1625664009826" duration="1764000" />
-      <workItem from="1625692569202" duration="10029000" />
+      <workItem from="1625692569202" duration="14675000" />
+      <workItem from="1626091468844" duration="2431000" />
     </task>
     <servers />
   </component>
