@@ -9,7 +9,6 @@ function Button({className, onClick, outline, children}) {
         'button',
         className,
         {'button--outline' : outline}
-
     )
 
     return (

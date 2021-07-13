@@ -5,8 +5,6 @@ import {setCategory, setSortBy} from "../../Redux/actions/filters";
 import {fetchPizzas} from "../../Redux/actions/pizzas";
 import {addPizzaToCart} from "../../Redux/actions/cart";
 import SwiperCategories from "../SwiperCategories/SwiperCategories";
-import SnackBlock from "../SnackBlock/SnackBlock";
-import {useScrollTopMenu} from "../../hooks/scrollMenu.hook";
 import {fetchPositions} from "../../Redux/actions/positions";
 import Positions from "../Positions";
 
@@ -116,21 +114,6 @@ function Home() {
 
                 />
             })}
-
-            {/*<h2 className="content__title">Закуски</h2>*/}
-            {/*<div className="content__items">*/}
-            {/*    {snacks && snacks.map(({id, name, imageUrl, description, price}) => {*/}
-            {/*        return <SnackBlock*/}
-            {/*            id={id}*/}
-            {/*            name={name}*/}
-            {/*            img={imageUrl}*/}
-            {/*            description={description}*/}
-            {/*            price={price}*/}
-            {/*            addedCartCount={cartItems[id] && cartItems[id].items.length}*/}
-            {/*            onClickAddPizza={(obj) => handleAddPizzaToCart(obj)}*/}
-            {/*        />*/}
-            {/*    })}*/}
-            {/*</div>*/}
         </div>
     );
 }
